@@ -21,33 +21,27 @@
     <div class="content"> 
 
      <h2>Sign Up</h2> 
-<form action="">
-     <div class="form"> 
+     <form action="/signup" method="POST">
+          <div class="form"> 
 
-      <div class="inputBox"> 
+               <div class="inputBox"> 
+                    <input type="text" name="uname" required> <i>Create a username</i> 
+               </div> 
 
-       <input type="text" required> <i>Create a username</i> 
+               <div class="inputBox"> 
+                    <input type="password" name="password" required> <i>Create a Password</i> 
+               </div> 
 
-      </div> 
+               <div class="links">
+                    <a href="/signup">Already have an account?  .</a> <a href="/login">   Login</a> 
+               </div> 
 
-      <div class="inputBox"> 
+               <div class="inputBox"> 
+                    <input type="submit" value="Create Account"> 
+               </div> 
 
-       <input type="password" required> <i>Create a Password</i> 
-
-      </div> 
-
-      <div class="links"> <a href="signup.html">Already have an account?  .</a> <a href="/login">   Login</a> 
-
-      </div> 
-
-      <div class="inputBox"> 
-
-       <input type="submit" value="Create Account"> 
-
-      </div> 
-
-     </div> 
-    </form>
+          </div> 
+     </form>
 
     </div> 
 

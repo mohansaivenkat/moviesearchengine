@@ -16,42 +16,43 @@
 
   <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
 
-   <div class="signin"> 
+        <div class="signin"> 
 
-    <div class="content"> 
+            <div class="content"> 
 
-     <h2>Sign In</h2> 
+                <h2>Sign In</h2> 
 
-     <div class="form"> 
+            <form action="/login" method="POST">
+                <div class="form"> 
 
-      <div class="inputBox"> 
+                    <div class="inputBox"> 
 
-       <input type="text" required> <i>Username</i> 
+                        <input type="text" required name="uname"> <i>Username</i> 
 
-      </div> 
+                    </div> 
 
-      <div class="inputBox"> 
+                    <div class="inputBox"> 
 
-       <input type="password" required> <i>Password</i> 
+                        <input type="password" required name="password"> <i>Password</i> 
 
-      </div> 
+                    </div> 
 
-      <div class="links"> <a href="">Dont have an account?</a> <a href="/signup">Signup</a> 
+                    <div class="links"> 
+                        <a href="/signup">Dont have an account?</a> <a href="/signup">Signup</a> 
+                    </div> 
 
-      </div> 
+                <div class="inputBox"> 
 
-      <div class="inputBox"> 
+                <input type="submit" value="Login"> 
 
-       <input type="submit" value="Login"> 
+                </div> 
 
-      </div> 
+                </div> 
+            </form>
+            </div> 
 
-     </div> 
-
-    </div> 
-
-   </div> 
-
+        </div> 
+    
   </section> <!-- partial --> 
 
  </body>
